@@ -1,0 +1,45 @@
+Overloading Çeşitleri
+=====================
+
+Parametre Sayısı Farklı
+-----------------------
+
+public class OverClass {
+
+	public int mtd1() {
+		return 0;
+	}
+	
+	public int mtd1(int a) {
+		return 0;
+	}
+}
+
+Parametre Sırası Farklı
+-----------------------
+
+public class OverClass {
+
+	public int mtd1(int a, float b) {
+		return 0;
+	}
+	
+	public int mtd1(float a, int b) {
+		return 0;
+	}
+}
+
+Parametre Türü Farklı
+-----------------------
+
+public class OverClass {
+
+	public int mtd1(int a, float b) {
+		return 0;
+	}
+	
+	public int mtd1(int a, String b) {
+		return 0;
+	}
+}
+
