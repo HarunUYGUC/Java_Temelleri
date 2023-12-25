@@ -4,9 +4,10 @@ public class Employee {
     
     private String firstName;
     private String lastName;
-    private Date birthDate;
-    private Date hireDate;
+    private Date birthDate; // Diğer sınıftan üretilen Instance Variable Nesnesi.
+    private Date hireDate; // Diğer sınıftan üretilen Instance Variable Nesnesi.
     
+    // Sınıfın Constructor'ı parametre olarak diğer sınıftan üretilen Instance Variable Nesnesi'ni aldı.
     public Employee(String first, String last, Date dateOfBirth, Date dateOfHire) {
         firstName = first;
         lastName = last;

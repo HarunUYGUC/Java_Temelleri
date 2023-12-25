@@ -6,6 +6,7 @@ public class Date {
     private int day;
     private int year;
     
+    // Instance Variable Dizisi
     private static final int[] daysPerMonth = {0, 31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31};
     
     public Date(int theMonth, int theDay, int theYear) {
