@@ -1,0 +1,10 @@
+    - Static özelliklere ve metodlara sınıf üzerinden ve o sınıftan üretilen nesne 
+    üzerinden ulaşılabilir. Static anahtar kelimesi bulunmayan özelliklere ve metodlara
+    ise sadece o sınıftan üretilen nesne üzerinden ulaşılabilir. 
+    - Static özelliklere ve metodlara o sınıf üzerinden üretilen nesne üzerinden ulaşılabilir
+    fakat asıl amacımız sınıf üzerinden ulaşmak olduğu için o şekilde kullanım yapmamız
+    daha mantıklı olacaktır.
+    - Static, sınfa özel; static olmayan, nesneye özel.
+    
+    - Static scope'da static olmayan özelliği veya metodu kullanamayız.
+    - Static olmayan scope'da static özellik veya metodu kullanabiliriz.
