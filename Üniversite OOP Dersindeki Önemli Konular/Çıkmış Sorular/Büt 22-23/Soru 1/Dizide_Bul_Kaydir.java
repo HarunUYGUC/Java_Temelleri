@@ -51,7 +51,7 @@ public class Dizide_Bul_Kaydir {
         
         Scanner inp = new Scanner(System.in);
         int sayi;
-	int yeniDizi[];
+	    int yeniDizi[];
         
         System.out.print("Hangi elemanı aramak istiyorsunuz?: ");
         sayi = inp.nextInt();
