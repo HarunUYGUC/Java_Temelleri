@@ -1,0 +1,4 @@
+Abstraction (Soyutlama)
+Encapsulation (Sarmalama)
+Inheritance (Miras, Kalıtım)
+Polymorphism (Çok Biçimlilik)
