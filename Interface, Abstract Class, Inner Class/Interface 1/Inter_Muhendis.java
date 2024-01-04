@@ -7,8 +7,8 @@ Java Interface dosyasını seçmeliyiz.
 
 public interface Inter_Muhendis {
     
-    /* Interface'den nesne üretemediğimiz için özellikleri
-    ve metotları tanımlarken Erişim Belirleyici koymamıza gerek yok. */
+    /* Interface'den nesne üretemediğimiz için 
+    metotları tanımlarken Erişim Belirleyici koymamıza gerek yok. */
     
     /* Fonksiyonları tanımlarız ama içlerini doldurmayız. 
     Bir sınıfa bu Interface dosyasını implement edersek (extends'de yaptığımız mantık)
