@@ -11,6 +11,10 @@ public class ArrayList_Islemleri {
                 arr.remove(i);
                 arr.remove(i);
                 i--;
+		/* ArrayList'ler dinamik olduğu için sildiğimiz indisteki değerin yerine
+		hemen üst indisindeki değer gelecektir. Bu yüzden arr.remove(i) işlemini iki kere
+		yapmalıyız. Daha sonra i-- yapmalıyız ki bu sayede sildiğimiz indis yerine gelen yeni 
+		elemanı atlamayalım. */
             }            
         }
         

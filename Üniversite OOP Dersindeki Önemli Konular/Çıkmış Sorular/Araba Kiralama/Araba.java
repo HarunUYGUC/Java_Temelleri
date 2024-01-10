@@ -27,4 +27,17 @@ public class Araba {
         son = a.bitisKm - a.basKm;
         return son * a.ucret;
     } 
+
+    /* Nesne üzerinden çağırdığımız metota parametre olarak tekrar kendisini göndermek
+    aslında çok saçma ama soruda bu şekilde söylenmiş. Yukarıdaki kod yerine aşağıdaki 
+    kodu yazmamız aslında yeterli. Araba_Test dosyasında da a1.ucret_hesapla() şeklinde
+    bu metodu kullanmalıyız. */
+
+    */
+    public int ucret_hesapla() {  
+        int son;
+        son = bitisKm - basKm;
+        return son * ucret;
+    } 
+    */
 }
