@@ -33,7 +33,10 @@ public class Date {
         
         throw new IllegalArgumentException("day out-of-range for the specified month and year");
     }
-    
+   
+    /* Sınıftan bir nesne üretirken bu özel metot otomatik olarak çalışır ve
+    "Date object constructor for date 7/24/1949" şeklinde bir mesaj yazar.
+    Ürettiğimiz nesneyi yazdırdığımızda ise "7/24/1949" metnini yazar.*/
     public String toString() {
         return String.format("%d/%d/%d", month, day, year);
     }
